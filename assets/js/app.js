@@ -27,7 +27,7 @@ var mostrarImagen = function (target) {
 var anteriorImagen = function (e) {
 	e.preventDefault();
 	target = target - 1;
-	target = (target < 0) ? 3 : target;
+	target = (target < 0) ? 4 : target;
 	mostrarImagen(target);
 };
 
@@ -35,8 +35,8 @@ var anteriorImagen = function (e) {
 var siguienteImagen = function (e) {
 	e.preventDefault();
 	target = target + 1;
-	target = (target > 3) ? 0 : target;
-	mostrarImagen(target);mostrarImagen(target);
+	target = (target > 4) ? 0 : target;
+	mostrarImagen(target);
 };
 // window.addEventListener("load", cargarPagina);
 $(document).ready(paginaCargada);
