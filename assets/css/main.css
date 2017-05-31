@@ -1,7 +1,35 @@
-.carousel-content {
+.colorFondo {
+	background-color: #5F1E54;
+	height: 650px;
+}
+
+.contenedorElementos {
+	margin-top: 2%;
+	padding: 2%;
+	background-color: #AD82AD;
+}
+
+.titulo {
+	color: #FD6F01;
+	font-weight: bold;
+	font-size: 65px;
+}
+
+.aparienciaBoton {
+	background-color: #FD6F01;
+	border: none;
+	color: #5F1E54;
+	font-size: 25px;
+}
+
+.carrusel-content {
 	display: none;
 }
 
-.carousel-content.active {
+.carrusel-content.active {
 	display: block;
+}
+
+.centrado {
+	text-align: center;
 }
